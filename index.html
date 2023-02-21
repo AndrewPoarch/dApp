@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinFlipper Dapp</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.4.umd.min.js"
+        type="application/javascript"></script>
+    <script src = "script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Shantell+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1> Rock Paper Scissors </h1>
+        <p> Add your bet in BNB: </p>
+        <p><input type="number" min = "0" id = "amountInEth" placeholder="Input.."></p>
+        <p> Choose item: </p>
+        <div class="buttons"><button onclick="RockPaperScissors(0)" class="button-30">ROCK</button>
+        <button onclick="RockPaperScissors(1)" class="button-30">PAPER</button>
+        <button onclick="RockPaperScissors(2)" class="button-30">SCISSORS</button>
+        </div>
+
+        <p ><b>Result:</b> <span id="resultLog" class="results"></p>
+            
+
+    </div>
+</body>
+</html>
